@@ -95,6 +95,7 @@ void readSensors() {
     sensorFault = true;
   }
 
+  //if state isnt low or high sensor has fault
   if (!(lightValue == LOW || lightValue == HIGH)) {
     sensorFault = true;
   }

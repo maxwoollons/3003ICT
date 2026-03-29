@@ -31,7 +31,7 @@
     {
       "type": "wokwi-text",
       "id": "text1",
-      "top": -76.8,
+      "top": -182.4,
       "left": -115.2,
       "attrs": { "text": "Soil Moistness" }
     },
@@ -49,13 +49,7 @@
       "left": 201.6,
       "attrs": { "value": "1000" }
     },
-    {
-      "type": "wokwi-lcd2004",
-      "id": "lcd2",
-      "top": 131.2,
-      "left": 293.6,
-      "attrs": { "pins": "i2c" }
-    },
+    { "type": "wokwi-lcd2004", "id": "lcd2", "top": 160, "left": 332, "attrs": { "pins": "i2c" } },
     {
       "type": "wokwi-text",
       "id": "text3",
@@ -73,9 +67,37 @@
     {
       "type": "wokwi-text",
       "id": "text5",
-      "top": -86.4,
-      "left": 403.2,
+      "top": -144,
+      "left": 422.4,
       "attrs": { "text": "Outside Temp and Humidity Sensor" }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "text6",
+      "top": -153.6,
+      "left": -115.2,
+      "attrs": { "text": "100% = DRY\n0% = WET" }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "text7",
+      "top": -115.2,
+      "left": 422.4,
+      "attrs": { "text": "Max and Min Safe Temp\n40c/5c" }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "text8",
+      "top": -105.6,
+      "left": -115.2,
+      "attrs": { "text": "Dry/Wet Threshold\n73.2%/53.7%" }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "text9",
+      "top": 240,
+      "left": 28.8,
+      "attrs": { "text": "Daytime = 10k Lux\nNightime = 5-10 Lux" }
     }
   ],
   "connections": [
